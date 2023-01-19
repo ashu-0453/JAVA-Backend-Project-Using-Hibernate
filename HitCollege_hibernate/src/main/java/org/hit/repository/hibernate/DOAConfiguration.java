@@ -20,8 +20,8 @@ public static SessionFactory getSessionFactory(){
     Map<String, Object> settings = new HashMap<>();
     settings.put("hibernate.connection.driver_class", "com.mysql.cj.jdbc.Driver");
     settings.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/hit");
-    settings.put("hibernate.connection.username", "root");         //Set Your Username
-    settings.put("hibernate.connection.password", "ashu0453");    //Set Your Password
+    settings.put("hibernate.connection.username", "********");     //Set Your Username instead of ***
+    settings.put("hibernate.connection.password", "********");    //Set Your Password instead of ***
     settings.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
     settings.put("hibernate.show_sql", "true");
     settings.put("hibernate.format_sql", "true");
